@@ -66,4 +66,4 @@ These additions are excerpted in the following code snippet:
 
 ## License
 
-AdvancedMobGriefing is licensed under the permissive MIT license. Please see LICENSE.txt for more info.
+AdvancedMobGriefing is licensed under the permissive MIT license. Please see [`LICENSE.txt`](https://github.com/Ev1ls0n/AdvancedMobGriefing/blob/main/LICENSE) for more info.
