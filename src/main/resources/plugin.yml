@@ -1,5 +1,5 @@
 name: AdvancedMobGriefing
-version: '1.0'
+version: '1.0.1'
 main: me.ewilson.advancedMobGriefing.AdvancedMobGriefing
 api-version: '1.20'
 prefix: AdvancedMobGriefing

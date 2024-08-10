@@ -35,7 +35,8 @@ public class GriefingListener implements Listener {
 
     private boolean canGrief(EntityType entityType) {
         return PLUGIN.getConfig().getBoolean(ConfigHandler.createConfigKey(
-                new String[]{this.GRIEF_CONFIG_ROOT, entityType.toString()})
+                new String[]{this.GRIEF_CONFIG_ROOT, entityType.toString()}),
+                true
         );
     }
 
