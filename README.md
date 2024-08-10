@@ -4,6 +4,8 @@ AdvancedMobGriefing is a plugin that was developed for a private Minecraft serve
 
 Despite the fact that the plugin was developed for personal use, the decision was made to release it to the public.
 
+The plugin _does not interrupt the entity explosion event, but only clears the list of blocks that the explosion should destroy_. This achieves the same effect as the normal `gamerule mobGriefing false` command, so that particles, sounds and other explosion effects are played correctly.
+
 ## Supported Versions and Platforms
 
 AdvancedMobGriefing currently supports Minecraft Java Server v1.20.4 based on [Paper](https://papermc.io/) or [Spigot](https://www.spigotmc.org/wiki/about-spigot/).
@@ -32,6 +34,8 @@ can-grief:
 ```
 
 The configuration file can be found at the following path: `/plugins/AdvancedMobGriefing/config.yml`
+
+The plugin uses only one permission - `amg.mobgriefing`. This permission is available by default only to users with operator rights.
 
 ## Project Settings
 
