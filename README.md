@@ -1,3 +1,5 @@
+![icon](amg_icon.png)
+
 ## What is AdvancedMobGriefing?
 
 ❔ AdvancedMobGriefing is a plugin that was developed for a private Minecraft server for one purpose only - to disable griefing for certain mobs, rather than all, as the `gamerule mobGriefing false` does. Despite the fact that the plugin was developed for personal use, the decision was made to release it to the public.
