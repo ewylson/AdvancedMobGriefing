@@ -1,5 +1,5 @@
 name: AdvancedMobGriefing
-version: '1.0.1'
+version: '1.0.2'
 main: me.ewilson.advancedMobGriefing.AdvancedMobGriefing
 api-version: '1.20'
 prefix: AdvancedMobGriefing
@@ -8,12 +8,12 @@ description: A plugin that allows you to disable griefing for selected mobs.
 website: https://github.com/Ev1ls0n
 commands:
   mobgriefing:
-    description: Set mob griefing rule for a selected mob type.
-    usage: /<command> [mob type] [true|false]
+    description: Set mob griefing rule for a selected entity type.
+    usage: /<command> (entity type) [true|false]
     aliases:
       - amg
     permission: amg.mobgriefing
 permissions:
   amg.mobgriefing:
-    description: Allows a player to set the griefing value for selected mobs.
+    description: Allows a player to set the griefing value for selected entities.
     default: op
